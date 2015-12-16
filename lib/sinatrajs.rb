@@ -11,7 +11,7 @@ module Sinatrajs
     enable :static
 
     get '/' do
-      erb :index
+      haml :index
     end
   end
 end
