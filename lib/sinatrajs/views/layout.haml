@@ -7,17 +7,16 @@
     %link{:href => "/css/general.css", :rel => "stylesheet"}/
     %title SinatraJS
   %body
-    %nav.navbar.navbar-default
-      %div.container-fluid
-        %div.navbar-header
-          %a.navbar-brand{:href => '/'} SinatraJS
-        %div
-          %ul.nav.navbar-nav
-            %li.active
-              %a{:href => '/'} Home
-          
-
     #content
+      %nav.navbar.navbar-default
+        %div.container-fluid
+          %div.navbar-header
+            %a.navbar-brand{:href => '/'} SinatraJS
+          %div
+            %ul.nav.navbar-nav
+              %li.active
+                %a{:href => '/'} Home 
+      -# /nav
       = yield
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js", :type => "text/javascript"}
     :javascript
