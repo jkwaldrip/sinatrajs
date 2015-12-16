@@ -3,6 +3,8 @@
 Hi!  This is just a little starter framework using Sinatra to load a static site
 with Bootstrap and jQuery included from CDNs.  Feel free to use it if you like.
 
+_NOTE_ -- Check the branches for different starting structures. :)
+
 ## Installation
 
 Clone this repository locally:
@@ -27,7 +29,6 @@ This project also includes the 'rerun' gem as a development dependency, if you p
 
 The [rerun](https://github.com/alexch/rerun) gem allows app servers to be reloaded if changes are detected.
 Depending on what you're building on this starter framework, this may not be necessary at all.
-
 
 ## Contributing
 
