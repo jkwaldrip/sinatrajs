@@ -7,6 +7,14 @@
     %link{:href => "/css/general.css", :rel => "stylesheet"}/
     %title SinatraJS
   %body
+    // Load Javascript
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js", :type => "text/javascript"}
+    :javascript
+      // <![CDATA[
+      window.jQuery || document.write('<script type="text/javascript" src="/js/src/lib/jquery.min.js"><\/script>')
+      // ]]>
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js", :type => "text/javascript"}
+
     #content
       %nav.navbar.navbar-default
         %div.container-fluid
@@ -18,9 +26,3 @@
                 %a{:href => '/'} Home 
       -# /nav
       = yield
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js", :type => "text/javascript"}
-    :javascript
-      // <![CDATA[
-      window.jQuery || document.write('<script type="text/javascript" src="/js/jquery.min.js"><\/script>')
-      // ]]>
-    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js", :type => "text/javascript"}
