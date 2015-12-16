@@ -1,34 +1,33 @@
 # Sinatrajs
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sinatrajs`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Hi!  This is just a little starter framework using Sinatra to load a static site
+with Bootstrap and jQuery included from CDNs.  Feel free to use it if you like.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Clone this repository locally:
 
-```ruby
-gem 'sinatrajs'
-```
+    $ git clone git@github.com:jkwaldrip/sinatrajs.git
 
-And then execute:
+Install the dependencies:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install sinatrajs
+    $ cd sinatrajs
+    $ bundle install
 
 ## Usage
 
-rerun 'app.rb'
+This app can be run from the executable app.rb:
 
-## Development
+    $ cd sinatrajs
+    $ ./app.rb
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+This project also includes the 'rerun' gem as a development dependency, if you prefer:
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    $ rerun app.rb
+
+The [rerun](https://github.com/alexch/rerun) gem allows app servers to be reloaded if changes are detected.
+Depending on what you're building on this starter framework, this may not be necessary at all.
+
 
 ## Contributing
 
