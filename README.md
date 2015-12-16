@@ -31,7 +31,7 @@ Depending on what you're building on this starter framework, this may not be nec
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sinatrajs.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jkwaldrip/sinatrajs.
 
 
 ## License
